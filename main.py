@@ -16,5 +16,6 @@ print("\nAlphabetical order:")
 print(sorted(items))
 
 print("\nReverse order:")
-print(items.sort(reverse=True))
+items.sort(reverse=True)
+print(items)
 
